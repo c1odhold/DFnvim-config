@@ -9,8 +9,7 @@ keymap.set("i", "aa", "<Esc>")
 keymap.set("v", "aa", "<Esc>")
 
 -- 进入插入模式
--- keymap.set("n", "<leader>2", "i")
--- keymap.set("v", "<leader>2", "<Esc>i")
+keymap.set("n", "a", "i")
 
 -- 进入可视模式
 -- keymap.set("n", "<leader>3", "v")
