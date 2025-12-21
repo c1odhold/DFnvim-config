@@ -11,7 +11,7 @@ Firstly make sure you have installed nmp and ctags
 
 - Arch
 ```
-sudo pacman npm ctags
+sudo pacman nodejs npm ctags
 ```
 
 Secondly remember to back up your original configuration files
