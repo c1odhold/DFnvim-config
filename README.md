@@ -7,7 +7,7 @@ A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
 Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
 
 # QuickStart
-First make sure you have installed nmp and ctags
+Firstly make sure you have installed nmp and ctags
 
 - Arch
 ```
@@ -19,7 +19,7 @@ sudo pacman npm ctags
 sudo apt install npm ctags
 ```
 
-Second remember to back up your original configuration files
+Secondly remember to back up your original configuration files
 
 ```
 # required
@@ -37,7 +37,7 @@ Then clone or fork the config files to your ~/.config/nvim
 git clone git@github.com:c1odhold/DFnvim-config.git ~/.config/nvim
 ```
 
-Final launch nvim and wait for all plugins and configurations to download completely
+Finally launch nvim and wait for all plugins and configurations to download completely
 ```
 nvim
 ```
