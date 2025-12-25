@@ -1,6 +1,10 @@
 return {
   "akinsho/toggleterm.nvim",
   version = "*",
+  cmd = { "ToggleTerm", "TermExec" },
+  keys = {
+    { "<F12>", '<Cmd>execute v:count . "ToggleTerm"<CR>', desc = "Toggle Terminal" },
+  },
   config = function()
     local toggleterm = require("toggleterm")
     -- vim.api.nvim_set_hl(0, "FloatTitle", { fg = "#98c379", bold = true }) -- 标题
@@ -25,9 +29,5 @@ return {
         title_pos = "center",
       },
     })
-
-    -- Keymaps
-    -- 打开/关闭浮动Terminal
-    vim.keymap.set({ "n", "t" }, "<F12>", '<Cmd>execute v:count . "ToggleTerm"<CR>', { noremap = true, silent = true })
   end,
 }

@@ -1,11 +1,15 @@
 return {
   "supermaven-inc/supermaven-nvim",
+  event = "InsertEnter",
+  cmd = { "SupermavenToggle" },
+  keys = {
+    { "<leader>tt", "<cmd>SupermavenToggle<CR>", desc = "Toggle Supermaven" },
+  },
   config = function()
     require("supermaven-nvim").setup({
       keymaps = {
         accept_suggestion = "<Tab>",
         accept_word = "<C-j>",
-        vim.keymap.set("n", "<leader>tt", "<cmd>SupermavenToggle<CR>"),
       },
       color = {
         suggestion_color = "#d16dff",
