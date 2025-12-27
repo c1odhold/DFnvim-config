@@ -7,11 +7,14 @@ A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
 Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
 
 # QuickStart
-Firstly make sure you have installed npm and ctags
+
+# Install
+
+Firstly make sure you have installed npm 
 
 - Arch
 ```
-sudo pacman nodejs npm ctags
+sudo pacman nodejs npm
 ```
 
 Secondly remember to back up your original configuration files
@@ -59,23 +62,18 @@ nvim
 ### UI Enhancements
 - **dashboard-nvim** - Beautiful startup screen
 - **noice.nvim** - Improved LSP progress and hover display
-- **tagbar** - Code tag browser
-  - `<F8>` - Toggle tagbar
 - **toggleterm.nvim** - Floating terminal
   - `<F12>` - Open/close floating terminal
 
 ## Keybindings
 
 ### General Keybindings
-- `<leader>lf` - Format code
-- `<leader>tf` - Toggle auto-format
-- `<leader>cp` - Markdown preview toggle
-- `<leader>tt` - Toggle Supermaven AI suggestions
+- `<leader><CR>` - Auto-format
+- `<leader>cp`   - Markdown preview toggle
+- `<leader>tt`   - Toggle Supermaven AI suggestions
 
 ### Filetype-specific Keybindings
-- **Python/C/C++/Rust**: `r` - Save and run code
-- **Go**: `r` - Save and run Go file in terminal
-- **Dart**: `r` - Save and open Flutter command palette
+- **Python/C/C++**: `r` - Save and run code
 
 ### UI Keybindings
 - `<F8>` - Toggle tagbar
@@ -125,8 +123,6 @@ nvim
 └── stylua.toml
 
 4 directories, 23 files
-```
-```
 ```
 
 # Usage Tips
