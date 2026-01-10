@@ -19,7 +19,7 @@ for filetype, mapping in pairs(keymaps) do
     pattern = filetype,
     group = ft_group,
     callback = function(args)
-      vim.keymap.set("n", "r", mapping.cmd, {
+      vim.keymap.set("n", "<leader>dr", mapping.cmd, {
         noremap = true,
         silent = true,
         buffer = args.buf,

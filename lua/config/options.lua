@@ -10,5 +10,5 @@ vim.opt.smartcase = true          -- 如果有大写则区分
 
 -- 字体
 -- vim.o.guifont = "JetBrainsMono Nerd Font:h14"
-vim.opt.guifont = "UbuntuSansMono Nerd Font,Sarasa Mono SC:h14"
+-- vim.opt.guifont = "UbuntuSansMono Nerd Font,Sarasa Mono SC:h14"
 vim.g.lazyvim_prettier_needs_config = false
